@@ -9,7 +9,6 @@ import {
   humidity,
   humidityDetail,
   mainSection,
-  message,
   secondarySection,
   temp,
   weatherDescription,
