@@ -9,6 +9,7 @@ import {
   humidity,
   humidityDetail,
   mainSection,
+  message,
   secondarySection,
   temp,
   weatherDescription,
@@ -54,6 +55,9 @@ const getWeather = async () => {
     secondarySection.classList.remove("hidden");
   } catch (error) {
     console.error(`failed to get data`);
+    alert(
+      "Failed to retrieve weather data. Please check the city name or try again later."
+    );
   }
 };
 

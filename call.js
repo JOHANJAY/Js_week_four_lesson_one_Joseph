@@ -17,3 +17,4 @@ export const humidityDetail =
 export const wind = document.getElementById("wind");
 export const windDetail = document.getElementById("wind-dits");
 export const button = document.querySelector('button')
+export const message = document.getElementById('message')
